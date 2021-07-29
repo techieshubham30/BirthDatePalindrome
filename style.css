@@ -1,5 +1,141 @@
-.output{
-    width: 30vw;
-    height: 30vh;
-    border:2px solid black;
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+
 }
+
+:root{
+    --primary-color:
+    #4C1D95;
+
+}
+.main{
+    height:80vh;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid black;
+    margin: auto;
+    /* background-color: var(--primary-color) */
+    background-color: #eef2ff;
+
+
+}
+
+h2{
+    margin-bottom: 2rem;
+    font-size: 32px;
+}
+p{
+    font-size: 1rem;
+}
+
+strong{
+    font-weight: bold;
+
+    
+}
+
+.label{
+    display: block;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 1rem 0rem 0.5rem;
+}
+
+
+
+.inpt,.output{
+    display:inline-block;
+    height: 40px;
+    width: 200px;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    border-radius: 1rem;
+}
+.inpt{
+    margin-top: 2rem;
+    border-color: var(--primary-color);
+}
+.output{
+    /* border: 1px solid var(--primary-color); */
+}
+
+button{
+    cursor: pointer;
+    display:block;
+    margin: 1rem auto;
+    padding: 0.7rem 2rem;
+    border:1px solid var(--primary-color);
+    color: white;
+    background-color:var(--primary-color);
+    font-weight: bold;
+    border-radius: 1rem;
+    
+}
+
+.footer{
+    background-color:var(--primary-color);
+    padding: 1rem 1rem;
+    text-align: center;
+    color:cadetblue;
+    height: 9vh;
+    background-color: var(--primary-color);
+    padding-top: 2rem;
+
+}
+
+.footer .link{
+    color: white;
+    padding: 2rem;
+    font-size: large;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul{
+    padding-inline-start:0px;
+
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+    
+}
+
+.link{
+
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+
+}
+
+.legacyText{
+    padding-top:0.5rem;
+    color:white;
+
+
+}
+#legacyText{
+    text-decoration: none;
+    color:white;
+    font-size:larger
+
+}
+
+.output{
+    height:23vh;
+    width: 30vw;
+    
+}
+
